@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const productsRouter = require('../routes/products.js');
 const cartsRouter = require('../routes/carts.js');
-const { productos } = require('../data/datos.js');
+const { productos } = require('../json/datos.js');
 const PUERTO = 8080;
 
 //Middleware de JSON

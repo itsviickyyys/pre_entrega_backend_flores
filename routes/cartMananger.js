@@ -1,3 +1,5 @@
+import { promises as fs } from 'fs';
+
 class CartManager {
 
     constructor (jsonPath){

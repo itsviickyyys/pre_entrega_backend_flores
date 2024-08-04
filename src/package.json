@@ -2,8 +2,9 @@
   "name": "pre_entrega_backend_flores",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
